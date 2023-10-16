@@ -1,0 +1,28 @@
+<resources>
+    <string name="app_name">Dashboard</string>
+    <string name="prelims_activity_name">Prelims</string>
+    <string name="qpi_activity_name">QPI</string>
+    <string name="title_home">Home</string>
+    <string name="title_dashboard">Dashboard</string>
+    <string name="title_notifications">Notifications</string>
+    <string name="hint_firstname">Firstname</string>
+    <string name="hint_lastname">Lastname</string>
+    <string name="hint_housenum">House #</string>
+    <string name="hint_streetname">Street Name</string>
+    <string name="hint_subdivision">Subdivision/Housing Name</string>
+    <string name="hint_city">City Name</string>
+    <string name="hint_country">Country Name</string>
+    <string name="hint_notes">Comments/Notes</string>
+    <string name="save_text">Save</string>
+    <string name="fullname">Fullname</string>
+    <string name="home_address">Home Address</string>
+    <string name="notes">Notes</string>
+    <string name="back"><![CDATA[<<Back]]></string>
+    <string name="content_desc">Description</string>
+    <string name="title">AdDUnivents</string>
+    <string name="username_placeholder">Username</string>
+    <string name="password_placeholder">Password</string>
+    <string name="input_button">Input</string>
+    <string name="qpi_button">QPI</string>
+    <string name="blank_button">\?</string>
+</resources>
