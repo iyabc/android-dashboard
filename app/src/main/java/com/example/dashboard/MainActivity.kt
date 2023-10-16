@@ -34,18 +34,6 @@ class MainActivity : AppCompatActivity() {
         setupActionBarWithNavController(navController, appBarConfiguration)
         navView.setupWithNavController(navController)
 
-        val inputBtn = findViewById<Button>(R.id.input_button)
-        val qpiBtn = findViewById<Button>(R.id.qpi_button)
-
-        inputBtn.setOnClickListener {
-            val inputScreen = Intent(this, ThirdActivity::class.java)
-            startActivity(inputScreen)
-        }
-
-        qpiBtn.setOnClickListener {
-            val qpiScreen = Intent(this, QPIActivity::class.java)
-            startActivity(qpiScreen)
-        }
-
     }
+
 }

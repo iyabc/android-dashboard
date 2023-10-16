@@ -28,6 +28,11 @@
             </intent-filter>
         </activity>
         <activity
+            android:name=".ThirdActivity"
+            android:exported="false"
+            android:label="@string/third_activity_name">
+        </activity>
+        <activity
             android:name=".QPIActivity"
             android:exported="false"
             android:label="@string/qpi_activity_name">

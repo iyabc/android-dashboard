@@ -1,6 +1,7 @@
 <resources>
     <string name="app_name">Dashboard</string>
     <string name="prelims_activity_name">Prelims</string>
+    <string name="third_activity_name">Third</string>
     <string name="qpi_activity_name">QPI</string>
     <string name="title_home">Home</string>
     <string name="title_dashboard">Dashboard</string>
@@ -24,5 +25,6 @@
     <string name="password_placeholder">Password</string>
     <string name="input_button">Input</string>
     <string name="qpi_button">QPI</string>
+    <string name="name">Julienne Andrea Sentorias Panes</string>
     <string name="blank_button">\?</string>
 </resources>
