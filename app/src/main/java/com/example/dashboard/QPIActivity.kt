@@ -1,5 +1,6 @@
 package com.example.dashboard
 
+import android.content.Intent
 import androidx.appcompat.app.AppCompatActivity
 import android.os.Bundle
 import android.util.Log
@@ -28,8 +29,16 @@ class QPIActivity : AppCompatActivity() {
         val btnU5: Button = findViewById(R.id.btnU5)
         val btnU9: Button = findViewById(R.id.btnU9)
 
+        val backBtn = findViewById<Button>(R.id.back_btn)
+
         letterBtnsArray = intArrayOf(btnA.id, btnBP.id,btnB.id,btnCP.id,btnC.id,btnD.id,btnF.id)
         numberBtnsArray = intArrayOf(btnU3.id, btnU5.id, btnU9.id)
+
+        backBtn.setOnClickListener {
+            val dashboardScreen = Intent (this, MainActivity::class.java)
+            startActivity(dashboardScreen)
+        }
+
     }
 
     fun handleLetterButtonClick(view:View) {
